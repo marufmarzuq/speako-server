@@ -7,7 +7,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
+// speako_admin
+// scwZFe58xTWa3QGb
 const { DB_USER, DB_PASS } = process.env;
 const { MongoClient, ObjectId } = require("mongodb");
 const uri = `mongodb+srv://${DB_USER}:${DB_PASS}@cluster0.baiua.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
